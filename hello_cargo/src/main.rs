@@ -4,6 +4,6 @@ fn main() {
     println!("1 + 1 = {ans}");
     let a : i8 = 127;
     //let b : i8 = a + 1;
-    let b  = a + 1;
+    let b  = a + 1;//panic!
     println!("a = {a}, b = {b}");
 }
